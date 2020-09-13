@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+  }
+  #header{
+    background:#B1F0E8; 
+    width:100%;
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 40px;
+    text-align: center;
+  }
+  .carousel{
+    background-color: #B1F0E8;
+      font-size: 20px;
+      font-family: Impact, sans-serif;
+      text-align: center;
+  }
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 40%;
+    margin: auto;
+  }
+#footer{
+    background-color:black;
+    color: white;
+    text-align:center;
+    padding:10px;
+    margin-top:7px;
+    font-size:12px;
+}
+.nav{
+  background-color:#B3B3C6;
+  color:#000000;
+  border: 1px solid white;
+  text-align: center;
+}
+  @media only screen and (min-width: 500px) {
+    div {
+      text-align: center;
+    }
+    #cocina,
+    #bano,
+    #general {
+      border: 2px solid rgb(163, 149, 149);
+      border-radius: 5px;
+      font-size: 15px;
+      font-family: sans-serif;
+    }
+  }
+
+  @media only screen and (max-width:800px) {
+    /* para tablets: */
+    body {
+      background-color: #FAE5D3;
+    }
+     #cocina,
+    #bano,
+    #general {
+      display: inline-block;
+      margin: 2px;
+      width: 100%;
+      padding: 0;
+      background: #B1F0E8;
+      border: 2px solid white;
+      font-family: Impact,Arial, Helvetica, sans-serif;
+    }
+  }
+  @media screen and (min-width: 1025px) {
+     #cocina,
+    #bano,
+    #general {
+      display: inline-block;
+      background-color:#B1F0E8;
+      width: 50%;
+      border-radius: 5px;
+      border: 2px solid white;
+      margin: 2px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    body {
+      background-image: url(https://i.pinimg.com/originals/cd/ab/82/cdab82a2d4aa1ca33f681b1b3cae8d5b.jpg); 
+    }
+    #bano {
+      float: right;
+    }
+    .right {
+      background-color: #B1F0E8;
+      font-size: 20px;
+      font-family: Impact, sans-serif;
+      text-align: center;
+    }
+  }
